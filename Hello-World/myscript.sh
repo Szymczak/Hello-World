@@ -1,7 +1,8 @@
 #!/bin/sh
+cd /HelloWorld
 ant
 echo "PROJECT HAS BEEN BUILT"
-adb install bin/HelloWorld.apk
+adb install /bin/HelloWorld.apk
 echo "PROJECT HAS BEEN INSTALLED"
 adb shell am instrument -w com.helloworld/android.test.InstrumentationTestRunner
 echo "TESTS HAVE BEEN BUILT"

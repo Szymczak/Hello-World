@@ -66,7 +66,7 @@ public class TestLaunch extends Test
 		solo.sleep(2000);
 	}
 	
-		public void testCase2()
+	public void testCase2()
 	{
 		solo.sleep(2000);
 		assertTrue(solo.searchText("Hello World!"));
@@ -80,7 +80,6 @@ public class TestLaunch extends Test
 		assertTrue(solo.searchText("BOOOM!!!2"));
 		solo.sleep(2000);
 	}
-	
 	
 	
 

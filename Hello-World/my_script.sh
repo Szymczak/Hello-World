@@ -7,5 +7,5 @@ adb shell am instrument -w com.helloworld/com.helloworld.InstrumentationTestRunn
 echo "TESTS HAVE BEEN BUILT"
 adb uninstall com.helloworld
 echo "PROJECT HAS BEEN UNINSTALLED"
-adb pull /sdcard/Android/TEST-all.xml
+adb pull /sdcard/Android/data/TEST-all.xml
 echo "COPIED TEST RESULTS"

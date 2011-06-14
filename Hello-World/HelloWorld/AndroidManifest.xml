@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
 	package="com.helloworld" android:versionCode="1" android:versionName="1.0">
 	<instrumentation android:targetPackage="com.helloworld"
-		android:name="android.test.InstrumentationTestRunner" />
+		android:name="com.helloworld.InstrumentationTestRunner" />
 
 
 	<uses-library android:name="android.test.runner" />

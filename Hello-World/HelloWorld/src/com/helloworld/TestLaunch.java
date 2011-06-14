@@ -57,12 +57,13 @@ public class TestLaunch extends Test
 		assertTrue(solo.searchText("Hello World!"));
 		assertTrue(solo.searchText("bomb ()"));
 		
+		
 		solo.pressMenuItem(0);
 		
 		solo.sleep(2000);
-		assertTrue(solo.searchText("BOOOM!!!"));
+		//assertTrue(false);
+		assertTrue(solo.searchText("BOOOM!!!23"));
 		solo.sleep(2000);
-		RESULT=PASS;
 	}
 	
 	

@@ -57,7 +57,7 @@ public class Test extends ActivityInstrumentationTestCase2
 	
 		try
 		{
-			reportResult(RESULT,this.getName());
+			//reportResult(RESULT,this.getName());
 			solo.finalize();
 			
 		} catch (Throwable e)

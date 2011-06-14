@@ -81,7 +81,35 @@ public class TestLaunch extends Test
 		solo.sleep(2000);
 	}
 	
+	public void testCase3()
+	{
+		solo.sleep(2000);
+		assertTrue(solo.searchText("Hello World!"));
+		assertTrue(solo.searchText("bomb ()"));
+		
+		
+		solo.pressMenuItem(0);
+		
+		solo.sleep(2000);
+		//assertTrue(false);
+		assertTrue(solo.searchText("BOOOM!!!2"));
+		solo.sleep(2000);
+	}
 	
+	public void testCase4()
+	{
+		solo.sleep(2000);
+		assertTrue(solo.searchText("Hello World!"));
+		assertTrue(solo.searchText("bomb ()"));
+		
+		
+		solo.pressMenuItem(0);
+		
+		solo.sleep(2000);
+		//assertTrue(false);
+		assertTrue(solo.searchText("BOOOM!!!"));
+		solo.sleep(2000);
+	}
 
 	
 

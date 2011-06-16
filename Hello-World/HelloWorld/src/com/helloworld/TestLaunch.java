@@ -77,7 +77,7 @@ public class TestLaunch extends Test
 		
 		solo.sleep(2000);
 		//assertTrue(false);
-		assertTrue(solo.searchText("BOOOM!!!2"));
+		assertTrue(solo.searchText("BOOOM!!!"));
 		solo.sleep(2000);
 	}
 	
@@ -92,7 +92,7 @@ public class TestLaunch extends Test
 		
 		solo.sleep(2000);
 		//assertTrue(false);
-		assertTrue(solo.searchText("BOOOM!!!2"));
+		assertTrue(solo.searchText("BOOOM!!!"));
 		solo.sleep(2000);
 	}
 	
